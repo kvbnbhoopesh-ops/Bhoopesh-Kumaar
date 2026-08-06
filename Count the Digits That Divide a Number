@@ -1,0 +1,16 @@
+int countDigits(int num) 
+{
+    int n=num,count=0,a;
+    while(n!=0)
+    {
+        a=n%10;
+        if(num%a==0)
+        {
+          count++;
+          
+        }
+        n=n/10;
+       
+    }
+     return count;
+}
